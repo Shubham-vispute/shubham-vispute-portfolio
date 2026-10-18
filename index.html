@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0a1222">
+  <meta name="description" content="Shubham Kishor Vispute — Embedded Firmware Engineer portfolio, projects, technical notes and educational videos.">
+  <title>Shubham Kishor Vispute | Embedded Firmware Engineer</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="Shubham Vispute home">
+        <span class="brand-mark">&lt;/&gt;</span>
+        <span>SHUBHAM<span class="brand-dot">.</span></span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="primaryNav" aria-label="Open navigation">☰</button>
+      <nav id="primaryNav" class="nav-links" aria-label="Main navigation">
+        <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a>
+        <a href="#learning">Learning Hub</a><a href="#videos">Videos</a><a href="#resume">Resume</a>
+      </nav>
+      <a class="nav-cta" href="#contact">Contact <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="status-dot"></span> EMBEDDED FIRMWARE · EMBEDDED LINUX</div>
+          <h1>Engineering at the intersection of <span class="gradient-text">software &amp; hardware.</span></h1>
+          <p class="hero-lead">I'm <strong>Shubham Kishor Vispute</strong>, an Embedded Firmware Engineer focused on dependable firmware, Linux-based systems, and connected hardware.</p>
+          <p class="hero-sub">C/C++ · Embedded Linux · Yocto · OpenBMC · Linux Drivers · FreeRTOS</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Explore my work <span>↘</span></a>
+            <a class="button button-secondary" href="#resume">View resume <span>↗</span></a>
+          </div>
+          <div class="hero-meta"><span><i class="meta-icon">⌖</i> Pune, Maharashtra, India</span><span><i class="meta-icon">⌘</i> M.Tech, Embedded Systems — BITS Pilani</span></div>
+        </div>
+        <div class="hero-visual" aria-label="Decorative embedded systems illustration">
+          <div class="visual-glow"></div>
+          <div class="chip-card">
+            <div class="chip-top"><span class="chip-led"></span><span class="chip-label">SYSTEM_ONLINE</span><span class="chip-menu">•••</span></div>
+            <svg class="chip-svg" viewBox="0 0 300 240" role="img" aria-label="Illustration of a microcontroller and circuit traces">
+              <defs><linearGradient id="chipGrad" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#153c59"/><stop offset="1" stop-color="#0c1a2b"/></linearGradient></defs>
+              <g fill="none" stroke="#2dd4bf" stroke-opacity=".65" stroke-width="1.5">
+                <path d="M0 55H56V85H95"/><path d="M0 90H40V112H95"/><path d="M0 160H58V145H95"/>
+                <path d="M300 45H250V72H205"/><path d="M300 104H260V120H205"/><path d="M300 176H245V155H205"/>
+                <path d="M120 0V37H135V65"/><path d="M180 0V30H165V65"/><path d="M130 175V205H105V240"/><path d="M175 175V215H200V240"/>
+              </g>
+              <g fill="#67e8f9"><circle cx="56" cy="55" r="3"/><circle cx="40" cy="90" r="3"/><circle cx="58" cy="160" r="3"/><circle cx="250" cy="45" r="3"/><circle cx="260" cy="104" r="3"/><circle cx="245" cy="176" r="3"/><circle cx="120" cy="37" r="3"/><circle cx="180" cy="30" r="3"/></g>
+              <rect x="95" y="65" width="110" height="110" rx="10" fill="url(#chipGrad)" stroke="#67e8f9" stroke-width="1.5"/>
+              <rect x="109" y="79" width="82" height="82" rx="5" fill="#0a1222" stroke="#1f6a85"/>
+              <text x="150" y="115" fill="#e0f2fe" font-size="14" text-anchor="middle" font-weight="700">MCU</text>
+              <text x="150" y="135" fill="#67e8f9" font-size="9" text-anchor="middle">FIRMWARE</text>
+              <g stroke="#67e8f9" stroke-width="2"><path d="M85 82H95M85 98H95M85 114H95M85 130H95M85 146H95M85 162H95"/><path d="M205 82H215M205 98H215M205 114H215M205 130H215M205 146H215M205 162H215"/></g>
+            </svg>
+            <div class="chip-bottom"><span>CPU / RTOS / LINUX</span><span class="pulse-line"></span></div>
+          </div>
+          <div class="float-tag tag-top"><span class="tag-symbol">⌘</span><span><b>Low-level</b><small>Software</small></span></div>
+          <div class="float-tag tag-bottom"><span class="tag-symbol">↔</span><span><b>Hardware</b><small>Integration</small></span></div>
+          <div class="visual-caption">BUILD · DEBUG · INTEGRATE</div>
+        </div>
+      </div>
+      <div class="container tech-strip"><span>CORE TOOLKIT</span><div>C / C++</div><div>YOCTO / BITBAKE</div><div>OPENBMC</div><div>DBUS / REDFISH</div><div>RTOS</div></div>
+    </section>
+
+    <section class="section section-alt" id="about">
+      <div class="container">
+        <div class="section-heading"><div><p class="eyebrow">01 / PROFILE</p><h2>About <span class="gradient-text">me</span></h2></div><p class="section-intro">Turning hardware requirements into maintainable embedded software.</p></div>
+        <div class="about-grid">
+          <div class="about-copy">
+            <p class="large-copy">I work across the embedded software stack—from firmware and communication interfaces to Embedded Linux services and system integration.</p>
+            <p>My experience includes firmware development at <strong>Vertiv Energy Pvt. Ltd.</strong>, including controller features, generator integration, communication interfaces and Linux-based embedded platforms. I also completed an <strong>M.Tech in Embedded Systems from BITS Pilani (WILP)</strong>.</p>
+            <p>This portfolio brings together selected engineering projects, technical notes, and learning resources. Project details are intentionally written at a high level; I will add public code, diagrams, and supporting links only where they are available to share.</p>
+          </div>
+          <div class="profile-facts">
+            <div class="fact-card"><span class="fact-icon">01</span><div><b>Embedded Firmware</b><small>Firmware features, device integration and debugging</small></div></div>
+            <div class="fact-card"><span class="fact-icon">02</span><div><b>Embedded Linux</b><small>Yocto builds, services and system-level integration</small></div></div>
+            <div class="fact-card"><span class="fact-icon">03</span><div><b>System Interfaces</b><small>Modbus, I²C, UART, SPI, CAN and Ethernet</small></div></div>
+            <div class="fact-card"><span class="fact-icon">04</span><div><b>Continuous Learning</b><small>Technical notes, demos and engineering explainers</small></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-heading"><div><p class="eyebrow">02 / TOOLBOX</p><h2>Technical <span class="gradient-text">skills</span></h2></div><p class="section-intro">A practical overview of the technologies used across embedded development.</p></div>
+        <div class="skills-grid">
+          <article class="skill-card"><div class="skill-head"><span class="skill-icon">C</span><h3>Languages &amp; software</h3></div><div class="tags"><span>C</span><span>C++</span><span>Embedded C</span><span>Python</span><span>Shell scripting</span><span>Data structures</span><span>OOP</span></div></article>
+          <article class="skill-card"><div class="skill-head"><span class="skill-icon">⌘</span><h3>Linux &amp; build systems</h3></div><div class="tags"><span>Embedded Linux</span><span>Yocto / BitBake</span><span>OpenBMC</span><span>Linux services</span><span>Device Tree</span><span>Cross-compilation</span><span>Makefiles</span></div></article>
+          <article class="skill-card"><div class="skill-head"><span class="skill-icon">↔</span><h3>Protocols &amp; connectivity</h3></div><div class="tags"><span>Modbus RTU/TCP</span><span>CAN / CAN-FD</span><span>I²C</span><span>SPI</span><span>UART</span><span>RS-485</span><span>TCP/IP</span><span>UDP</span><span>Ethernet</span><span>MQTT</span></div></article>
+          <article class="skill-card"><div class="skill-head"><span class="skill-icon">◷</span><h3>RTOS &amp; debugging</h3></div><div class="tags"><span>FreeRTOS</span><span>Tasks &amp; scheduling</span><span>Mutexes / Semaphores</span><span>GDB</span><span>Git</span><span>Wireshark</span><span>JTAG / SWD concepts</span></div></article>
+          <article class="skill-card"><div class="skill-head"><span class="skill-icon">▦</span><h3>Management interfaces</h3></div><div class="tags"><span>D-Bus</span><span>bmcweb</span><span>Redfish APIs</span><span>REST</span><span>systemd</span><span>JSON</span></div></article>
+          <article class="skill-card"><div class="skill-head"><span class="skill-icon">⌁</span><h3>Platforms &amp; hardware</h3></div><div class="tags"><span>Raspberry Pi 4</span><span>ARM-based systems</span><span>ESP32</span><span>Microcontrollers</span><span>Relay I/O</span><span>Sensor integration</span></div></article>
+        </div>
+        <p class="fine-print">Skills shown are based on the technologies and projects in this profile. Add or remove items to reflect your exact hands-on depth before publishing.</p>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="experience">
+      <div class="container">
+        <div class="section-heading"><div><p class="eyebrow">03 / CAREER</p><h2>Experience &amp; <span class="gradient-text">education</span></h2></div></div>
+        <div class="timeline">
+          <div class="timeline-item"><span class="timeline-marker"></span><div class="timeline-content"><div class="timeline-top"><h3>Embedded Firmware Engineer</h3><span class="timeline-date">Dates to be added</span></div><p class="timeline-org">Vertiv Energy Pvt. Ltd.</p><p>Firmware development for a NetSure Controller Unit on a Yocto-based embedded Linux platform. Work areas included generator integration and control modes, digital input and relay output board integration, Modbus battery communication, I²C board communication, and controller feature integration.</p><div class="tags"><span>Embedded Linux</span><span>Yocto</span><span>Modbus</span><span>I²C</span><span>Controller firmware</span></div></div></div>
+          <div class="timeline-item"><span class="timeline-marker"></span><div class="timeline-content"><div class="timeline-top"><h3>M.Tech — Embedded Systems</h3><span class="timeline-date">Completed</span></div><p class="timeline-org">BITS Pilani · Work Integrated Learning Programme</p><p>Postgraduate study in embedded systems, complemented by a project focused on implementing an embedded baseboard management controller using OpenBMC on Raspberry Pi 4.</p></div></div>
+          <div class="timeline-item"><span class="timeline-marker"></span><div class="timeline-content"><div class="timeline-top"><h3>B.Tech — Electronics &amp; Telecommunication</h3><span class="timeline-date">Details to be added</span></div><p class="timeline-org">Education</p><p>Add institution and graduation year before publishing.</p></div></div>
+          <div class="timeline-item"><span class="timeline-marker"></span><div class="timeline-content"><div class="timeline-top"><h3>Diploma — Electronics &amp; Telecommunication</h3><span class="timeline-date">Details to be added</span></div><p class="timeline-org">Education</p><p>Add institution and graduation year before publishing.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-heading"><div><p class="eyebrow">04 / SELECTED WORK</p><h2>Engineering <span class="gradient-text">projects</span></h2></div><p class="section-intro">A selection of embedded software and hardware integration work.</p></div>
+        <div class="filter-row" role="group" aria-label="Filter projects">
+          <button class="filter-btn active" data-filter="all">All projects</button><button class="filter-btn" data-filter="linux">Embedded Linux</button><button class="filter-btn" data-filter="firmware">Firmware</button><button class="filter-btn" data-filter="iot">IoT / Hardware</button>
+        </div>
+        <div class="projects-grid" id="projectGrid">
+          <article class="project-card" data-category="linux">
+            <div class="project-art art-bmc"><span class="art-chip">BMC</span><span class="art-lines"></span><span class="art-label">OPENBMC / REDFISH</span></div>
+            <div class="project-body"><div class="project-type">EMBEDDED LINUX · M.TECH PROJECT</div><h3>OpenBMC Controller on Raspberry Pi 4</h3><p>Built an OpenBMC-based embedded baseboard management system, with bmcweb and D-Bus services for system management and monitoring.</p><div class="project-details"><b>Highlights</b><ul><li>Yocto image build and deployment</li><li>Custom rectifier service and D-Bus inventory objects</li><li>Redfish API endpoint integration for rectifier parameters</li></ul></div><div class="tags"><span>OpenBMC</span><span>Yocto</span><span>D-Bus</span><span>Redfish</span><span>C++</span></div><span class="project-note">Public repository/demo link: add when ready</span></div>
+          </article>
+          <article class="project-card" data-category="firmware">
+            <div class="project-art art-generator"><div class="power-ring">DG</div><span class="art-label">DUAL GENERATOR CONTROL</span><div class="signal-bars"><i></i><i></i><i></i><i></i><i></i></div></div>
+            <div class="project-body"><div class="project-type">CONTROLLER FIRMWARE</div><h3>Dual Diesel Generator Integration</h3><p>Integrated DG1, DG2 and combined operating modes into a NetSure controller, using relay outputs and digital input feedback for generator and fuel status.</p><div class="project-details"><b>Highlights</b><ul><li>Generator ON/OFF control conditions</li><li>Digital input status and fault handling</li><li>Integration with controller operating modes</li></ul></div><div class="tags"><span>C/C++</span><span>Relay I/O</span><span>Embedded Firmware</span><span>System Integration</span></div><span class="project-note">Proprietary implementation — no source code published</span></div>
+          </article>
+          <article class="project-card" data-category="firmware">
+            <div class="project-art art-protocol"><div class="protocol-node">BATTERY</div><span class="protocol-arrow">⇄</span><div class="protocol-node">CONTROLLER</div><span class="art-label">MODBUS COMMUNICATION</span></div>
+            <div class="project-body"><div class="project-type">COMMUNICATIONS</div><h3>Battery &amp; I/O Board Integration</h3><p>Worked on Modbus-based battery communication and I²C communication with relay/digital-input boards for controller integration.</p><div class="project-details"><b>Highlights</b><ul><li>Battery Modbus table integration</li><li>IB2 relay board integration</li><li>Support for dual board / generator configurations</li></ul></div><div class="tags"><span>Modbus</span><span>I²C</span><span>Digital Inputs</span><span>Relay Outputs</span></div><span class="project-note">Project details generalized to protect confidential information</span></div>
+          </article>
+          <article class="project-card" data-category="iot">
+            <div class="project-art art-iot"><div class="iot-device">ESP32</div><div class="iot-orbit"></div><span class="art-label">WIRELESS CONTROL</span></div>
+            <div class="project-body"><div class="project-type">PERSONAL / PROTOTYPE WORK</div><h3>UDP-Based Hardware Control</h3><p>Prototype concept using an Android interface and UDP broadcast messaging to coordinate ESP32-based relay control and LED indicators.</p><div class="project-details"><b>Areas explored</b><ul><li>Kotlin-based Android interface</li><li>UDP broadcast messaging</li><li>ESP32 relay and NeoPixel control</li></ul></div><div class="tags"><span>ESP32</span><span>UDP</span><span>Kotlin</span><span>IoT</span></div><span class="project-note">Add demo images or source links if publicly shareable</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="learning">
+      <div class="container">
+        <div class="section-heading"><div><p class="eyebrow">05 / KNOWLEDGE BASE</p><h2>Technical <span class="gradient-text">learning hub</span></h2></div><p class="section-intro">Notes and explainers for engineers preparing, building and debugging embedded systems.</p></div>
+        <div class="learning-grid">
+          <a class="learning-card" href="articles/yocto-guide.html"><span class="learning-number">01</span><span class="learning-icon">⌘</span><h3>Yocto &amp; BitBake</h3><p>Layers, recipes, tasks, builds, bbappend files and troubleshooting.</p><span class="read-link">Read guide <b>↗</b></span></a>
+          <a class="learning-card" href="articles/openbmc-redfish.html"><span class="learning-number">02</span><span class="learning-icon">▦</span><h3>OpenBMC, D-Bus &amp; Redfish</h3><p>Understand the service architecture and how data reaches management APIs.</p><span class="read-link">Read guide <b>↗</b></span></a>
+          <a class="learning-card" href="articles/c-cpp-embedded.html"><span class="learning-number">03</span><span class="learning-icon">C++</span><h3>C/C++ for embedded</h3><p>Memory, pointers, bit operations, concurrency and practical code patterns.</p><span class="read-link">Read guide <b>↗</b></span></a>
+          <a class="learning-card" href="articles/rtos-protocols.html"><span class="learning-number">04</span><span class="learning-icon">↔</span><h3>RTOS &amp; communication</h3><p>Tasks, ISRs, synchronization, CAN, Modbus, I²C, SPI and UART.</p><span class="read-link">Read guide <b>↗</b></span></a>
+        </div>
+        <p class="fine-print">These starter guides are introductory notes, not claims of certification or official documentation. Expand them with tested examples and references as you publish.</p>
+      </div>
+    </section>
+
+    <section class="section" id="videos">
+      <div class="container">
+        <div class="section-heading"><div><p class="eyebrow">06 / WATCH &amp; LEARN</p><h2>Electronics &amp; embedded <span class="gradient-text">video series</span></h2></div><p class="section-intro">Short, interactive lessons designed to make core concepts easier to understand.</p></div>
+        <div class="video-feature">
+          <div class="video-screen"><div class="video-play">▶</div><span class="screen-kicker">SERIES 01</span><h3>Basic Electronics</h3><p>Start with the fundamentals</p><div class="screen-circuit">＋ ━━━ ◉ ━━━ ▱</div></div>
+          <div class="video-feature-copy"><span class="series-label">UPCOMING SERIES</span><h3>Learn the fundamentals. Build the confidence.</h3><p>A planned series covering electronics fundamentals, embedded concepts, microcontrollers, communication protocols, and hands-on mini projects.</p><ul class="check-list"><li>Voltage, current, resistance and Ohm’s law</li><li>Resistors, capacitors, diodes and transistors</li><li>Microcontrollers, GPIO, UART, I²C and SPI</li><li>Interactive questions and small practical demos</li></ul><a class="button button-primary" href="#contact">Suggest a topic <span>↗</span></a></div>
+        </div>
+        <div class="video-grid">
+          <article class="video-card"><div class="video-thumb thumb-1"><span>01</span><b>V = I × R</b></div><div class="video-card-copy"><span class="video-status">PLANNED</span><h3>Voltage, Current &amp; Resistance</h3><p>Electronics basics · Beginner</p></div></article>
+          <article class="video-card"><div class="video-thumb thumb-2"><span>02</span><b>0 / 1</b></div><div class="video-card-copy"><span class="video-status">PLANNED</span><h3>Digital Logic &amp; GPIO</h3><p>Digital electronics · Beginner</p></div></article>
+          <article class="video-card"><div class="video-thumb thumb-3"><span>03</span><b>I²C / SPI / UART</b></div><div class="video-card-copy"><span class="video-status">PLANNED</span><h3>Embedded Communication</h3><p>Microcontrollers · Beginner to intermediate</p></div></article>
+        </div>
+        <p class="fine-print">No video links have been added yet. Replace these planned cards with your published video URLs when ready.</p>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="resume">
+      <div class="container resume-panel">
+        <div class="resume-icon">▤</div><div class="resume-copy"><p class="eyebrow">07 / RESUME</p><h2>Want the concise version?</h2><p>Use the print-ready resume page to save a PDF. Add verified dates, education institutions, contact information, and any certifications before sending it to employers.</p></div>
+        <div class="resume-actions"><a class="button button-primary" href="resume.html">Open resume <span>↗</span></a><button class="button button-secondary" id="printResume">Print / Save PDF <span>↓</span></button></div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div><p class="eyebrow">08 / GET IN TOUCH</p><h2>Let's build something <span class="gradient-text">reliable.</span></h2><p class="section-intro">For embedded firmware, Embedded Linux, technical collaboration, or learning content, connect through the profile link below.</p></div>
+        <div class="contact-card"><div class="contact-row"><span class="contact-icon">in</span><div><small>LINKEDIN</small><b>Professional profile</b><a href="https://www.linkedin.com/in/shubham-vispute-058b171a7/" target="_blank" rel="noopener noreferrer">linkedin.com/in/shubham-vispute-058b171a7 ↗</a></div></div><div class="contact-row"><span class="contact-icon">@</span><div><small>EMAIL</small><b>Contact email</b><p>Add your preferred public email before publishing.</p></div></div><div class="contact-row"><span class="contact-icon">⌘</span><div><small>GITHUB</small><b>Code &amp; repositories</b><p>Add your GitHub profile or project repositories when verified.</p></div></div></div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><a class="brand" href="#home"><span class="brand-mark">&lt;/&gt;</span><span>SHUBHAM<span class="brand-dot">.</span></span></a><p>Designed for engineering, built for learning.</p><span>© <span id="year"></span> Shubham Kishor Vispute</span></div></footer>
+</body>
+</html>
