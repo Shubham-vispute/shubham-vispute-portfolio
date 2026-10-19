@@ -1,0 +1,18 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>C/C++ for Embedded | Shubham Vispute</title><link rel="stylesheet" href="../styles.css"><link rel="stylesheet" href="article.css"></head><body><header class="site-header"><div class="container nav-wrap"><a class="brand" href="../index.html"><span class="brand-mark">&lt;/&gt;</span><span>SHUBHAM<span class="brand-dot">.</span></span></a><a class="nav-cta" href="../index.html#learning">← Learning Hub</a></div></header><main class="container article"><p class="eyebrow">LEARNING HUB / PROGRAMMING</p><h1>C/C++ for <span class="gradient-text">embedded systems</span></h1><p class="article-lead">A practical checklist for writing predictable low-level code.</p><h2>Bit manipulation</h2><pre><code>#include &lt;stdint.h&gt;
+
+#define BIT(n) (UINT32_C(1) &lt;&lt; (n))
+
+static inline uint32_t set_bit(uint32_t value, unsigned int bit)
+{
+    return value | BIT(bit);
+}
+
+static inline uint32_t clear_bit(uint32_t value, unsigned int bit)
+{
+    return value &amp; ~BIT(bit);
+}
+
+static inline int read_bit(uint32_t value, unsigned int bit)
+{
+    return (value &amp; BIT(bit)) != 0;
+}</code></pre><p>Ensure the bit index is within the width of the type. For hardware registers, use the register definitions and access rules supplied by the platform; do not assume a plain C variable is a safe substitute for memory-mapped I/O.</p><h2>Embedded review checklist</h2><ul><li>Use fixed-width integer types when register widths matter.</li><li>Understand lifetime, ownership, stack usage and heap allocation.</li><li>Use <code>volatile</code> only for its intended compiler-access semantics; it is not a thread-synchronization primitive.</li><li>Consider race conditions, interrupt context and critical sections.</li><li>Check error paths, boundary conditions, integer overflow and timeout handling.</li><li>In C++, understand RAII, references, smart pointers, object lifetime and virtual dispatch costs.</li></ul><h2>Interview topics to practise</h2><p>Pointers and arrays, static storage, const correctness, bitwise operations, memory segments, process versus thread, mutex versus semaphore, deadlock prevention, circular buffers, function pointers and C++ object lifetime.</p><p class="article-note">Code is illustrative. Compile and test in your own target/toolchain and follow your project's coding standard.</p><a class="button button-primary" href="../index.html#learning">Back to learning hub ↗</a></main></body></html>

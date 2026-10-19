@@ -14,8 +14,8 @@ A responsive static website built with HTML, CSS and vanilla JavaScript. It is d
 ## Before publishing
 
 Please review and replace all incomplete fields:
-1. Add verified employment start/end dates.
-2. Add the B.Tech and Diploma institution names and graduation years.
+1. Employment history and dates have been updated from the supplied CV; verify all details before publishing.
+2. Education history and graduation years have been updated from the supplied CV.
 3. Add a public email address if you want one displayed. Add a phone number only if you want it public.
 4. Add a GitHub profile, public repositories, demo links and actual video URLs when ready.
 5. Review every listed technology and project description for accuracy and confidentiality.
@@ -57,3 +57,7 @@ Edit the HTML and CSS files, commit/push the changes, and GitHub Pages will rede
 ## Privacy and security
 
 A public GitHub Pages website is visible to anyone. Do not publish home address, private phone number, confidential customer details, internal source code, proprietary diagrams or employer-only information. Use only material you are authorized to share.
+
+
+## CV-based update (19 Oct 2026)
+The portfolio and print-ready resume have been updated using the supplied two-page CV: career history, education, skills, embedded security knowledge, OpenBMC/NetSure work, automotive BMS, pet feeder and greenhouse projects, and contact details. Confirm all content and public-contact preferences before publishing.
