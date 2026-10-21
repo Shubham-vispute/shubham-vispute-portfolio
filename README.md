@@ -1,19 +1,19 @@
-# Shubham Kishor Vispute — Personal Technical Portfolio
+# Shubham Kishor Vispute — Technical Portfolio
 
-Static portfolio for free GitHub Pages hosting. Career dates, education details and contact email are populated from the CV supplied by Shubham.
+Responsive dark navy/cyan portfolio for free GitHub Pages hosting.
 
-## Important files
-- `index.html` — portfolio, career timeline, projects, technical skills, learning hub, videos and contact details.
-- `styles.css`, `script.js` — responsive design and interactions.
-- `Shubham_Vispute_CV.pdf` — original CV PDF supplied by the owner (if included in this package).
-- `resume.html` / `resume.css` — browser-readable CV layout.
-- `articles/` — technical starter guides.
+## Contents
+- `index.html` — portfolio, skills, work history, education, projects, technical learning and electronics/embedded lesson topics.
+- `styles.css` and `script.js` — responsive design, project filters, reveal-on-scroll animations and accessible navigation.
+- `Shubham_Vispute_CV.pdf` — original CV PDF supplied by the owner.
+- `resume.html` and `resume.css` — web-friendly resume page.
+- `articles/` — technical guides.
 - `assets/` — favicon.
 
-## Publish/update on GitHub Pages
-Upload the **contents** of this folder to the repository root and preserve the `articles/` and `assets/` folders. Keep `index.html` at the root. Commit changes to `main`; if Pages is configured for `main` / `/(root)`, it redeploys automatically.
+## Publish
+Upload the **contents** of this folder to the repository root, preserving `articles/` and `assets/`. Keep `index.html` at the root. Commit to `main`; GitHub Pages will redeploy if configured for `main` and `/(root)`.
 
 Repository: https://github.com/Shubham-vispute/shubham-vispute-portfolio
-Expected URL: https://shubham-vispute.github.io/shubham-vispute-portfolio/
+Expected site: https://shubham-vispute.github.io/shubham-vispute-portfolio/
 
-The CV PDF is the same file supplied by the owner. The website is public; it includes the phone numbers and email from that CV. Remove them if you do not want them publicly visible.
+The site links to the original CV PDF supplied by the owner. The site is public; verify contact details before publishing.
